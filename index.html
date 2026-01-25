@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>My Portfolio</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/languages/c-sharp.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Kelly
+  * Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+  <style>
+    .statDiv {
+      width: 100%;
+      border: 1px solid #0561b8;
+      padding: 19px;
+      border-radius: 10px;
+      position: relative;
+      box-shadow: 0px 0px 20px 0px rgb(19 29 38 / 20%) !important;
+      padding: 8px 25px 16px;
+    }
+
+    .stats i {
+      background-color: var(--accent-color);
+      color: var(--contrast-color);
+      width: 54px;
+      height: 54px;
+      font-size: 24px;
+      border-radius: 50px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      z-index: 1;
+      top: 19px;
+    }
+
+    .stats .stats-item p {
+      padding: 0;
+      margin: 0;
+      font-weight: 500;
+      color: #5b5c89;
+      font-size: 16px;
+    }
+
+    .stats .stats-item span {
+      font-size: 20px;
+      line-height: 34px;
+      display: block;
+      font-weight: 700;
+      color: #bb2a2a;
+    }
+
+    .skills-content {
+      display: flex;
+      width: 100%;
+      align-content: center;
+      flex-wrap: wrap;
+    }
+
+    .skills-content .statDiv {
+      width: fit-content;
+      border: 1px solid #c11646;
+      padding: 10.3px 19px 8.5px !important;
+            border-radius: 10px;
+      position: relative;
+      box-shadow: 0px 0px 6px 0px rgb(82 82 96 / 22%) !important;
+      margin: 11px;
+    }
+
+    .skills-content .statDiv .stats-item {
+      padding-left: 35px;
+    }
+
+    .skills-content img {
+      width: 30px;
+      position: absolute;
+      z-index: 1;
+      top: 7px;
+      left: 13px;
+    }
+
+    .skills-content .stats-item p {
+      padding: 0;
+      margin: 0;
+      font-weight: 500;
+      color: #5b5c89;
+      font-size: 16px;
+    }
+
+    .skills-content .stats-item span {
+      font-size: 16px;
+      line-height: 25px;
+      display: block;
+      font-weight: 500;
+      color: #3a8f30;
+    }
+
+    .hero h1 span {
+    border-bottom: 4px solid #26c726;
+}
+
+@media screen and (min-width: 641px) {
+
+.statDivHeading1{
+  display: block !important;
+}
+
+.statDivHeading2{
+  display: none !important;
+}
+
+/* .profile-desktop{
+    display: block !important;
+}
+
+.profile-mobile{
+    display: none !important;
+} */
+
+.profile-mobile {
+    width: 300px;
+        display: block !important;
+        margin: 0 auto !important;
+        margin-top: 40px !important;
+        margin-bottom: 45px !important;
+}
+}
+
+@media screen and (max-width: 640px) {
+.heroContainer{
+  padding: 0px 27px;
+}
+
+ /* .hero-img{
+  display: none;
+ } */
+
+ .intoHeading1{
+  font-size: 26px !important;
+  margin-bottom: 10px !important;
+ }
+
+ .intoHeading2{
+  font-size: 23px !important;
+    line-height: 38px !important;
+    margin: 0px 5px;
+ }
+
+ .hero p {
+  margin: 0px 2px;
+        line-height: 28px;
+        margin-bottom: 21px;
+    }
+
+    .heroBtn{
+      display: block !important;
+    }
+
+    .btn-get-started{
+  width:100%;
+  text-align: center;
+  margin: 8px 0px;
+}
+
+
+#about{
+  padding: 0px 10px;
+  margin-top: 40px;
+}
+
+.section-title{
+  padding-bottom: 20px;
+}
+
+#stats{
+  padding: 0px 10px;
+    margin-top: 10px;
+}
+
+.statDiv {
+    box-shadow: 0px 0px 4px 1px rgb(19 29 38 / 20%) !important;
+}
+
+.about .content ul strong {
+    font-size: 15px;
+}
+
+.stats .stats-item span {
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.stats i {
+    width: 39px;
+    height: 39px;
+    top: 19px;
+}
+
+.statDivHeading1{
+  display: none !important;
+}
+
+.statDivHeading2{
+  display: block !important;
+}
+
+#skills{
+  padding: 0px 5px;
+    margin-top: 25px;
+}
+
+#skills .section-title{
+  padding-bottom: 20px !important;
+}
+
+
+.skills-content {
+  padding: 0px 4px;
+    display: block;
+    flex-wrap: nowrap;
+}
+
+.skills-content .statDiv {
+    width: 100%;
+    padding: 9.3px 19px 10.5px !important;
+    margin: 15px 0px;
+}
+
+#resume{
+  padding: 0px 8px;
+  margin-top: 20px;
+}
+
+.resume .resume-item h4 {
+    line-height: 21px;
+    font-size: 15px;
+  }
+
+  .resume .resume-title {
+    font-size: 19px;
+}
+
+.section-title h2 {
+    font-size: 26px;
+}
+
+#portfolio{
+  padding: 0px 9px;
+  margin-top: 20px;
+}
+
+#contact{
+  padding: 0px 10px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+
+#contact .section-title {
+        padding-bottom: 30px !important;
+    }
+
+.contact .info-item+.info-item {
+    margin-top: 23px;
+}
+
+
+.profile-desktop{
+    display: none !important;
+}
+
+.profile-mobile{
+  width: 220px;
+    display: block !important;
+    margin: -28px auto 1px !important;
+}
+
+
+}
+
+.hero-img{
+  border: none !important;
+}
+  </style>
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename" style="border: 4px solid #1acc8d;padding: 3px 8px;">H.</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">My Intro</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+      <img src="assets/img/hero-bg-2.jpg" alt="" class="hero-bg">
+
+      <div class="container heroContainer">
+        <div class="row gy-4 justify-content-between">
+          <div class="col-lg-4 order-lg-last hero-img" data-aos="zoom-out" data-aos-delay="100"
+            style="border: 5px solid #1acc8d; padding: 9px;border-radius: 14px;">
+            <img src="assets/img/portfolio-mobile-img.jfif" alt="" class="img-fluid profile-mobile" style="display: none;">
+            <img src="assets/img/profile-img.jfif" class="img-fluid  profile-desktop" alt="" style="display: none;">
+          </div>
+
+          <div class="col-lg-8  d-flex flex-column justify-content-center" data-aos="fade-in">
+            <h1 class="intoHeading1"
+              style="background: white; color: brown; width: fit-content;padding: 2px 11px; border-radius: 15px;font-size: 42px;">
+              Hi,</h1>
+            <h1  class="intoHeading2" style="font-size: 37px;">I am <span class="typed intoHeading3"
+                data-typed-items="Muhammad Haris,Full Stack .Net Web Developer"></span><span
+                class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></h1>
+
+            <p>I’m Full Stack .NET Web Developer with 5+ years of experience, creating seamless and effective web
+              solutions.</p>
+            <div class="d-flex heroBtn">
+              <a href="assets/resume.pdf" target="_blank" class="btn-get-started" style="background: #229922; margin-right:10px;">Download
+                Resume</a>
+              <a href="#contact" class="btn-get-started" style="background-color: #c72323;">Contact Me</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28 " preserveAspectRatio="none">
+        <defs>
+          <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+        </defs>
+        <g class="wave1">
+          <use xlink:href="#wave-path" x="50" y="3"></use>
+        </g>
+        <g class="wave2">
+          <use xlink:href="#wave-path" x="50" y="0"></use>
+        </g>
+        <g class="wave3">
+          <use xlink:href="#wave-path" x="50" y="9"></use>
+        </g>
+      </svg>
+
+    </section><!-- /Hero Section -->
+
+
+    <!-- About Section -->
+    <section id="about" class="about section pb-0">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About Me</h2>
+        <p>I’m <span style="font-weight: 600;color: rebeccapurple;">Full Stack .NET Web Developer</span> with more than
+          <span style="font-weight: 600;color: rebeccapurple;">5 years</span> of experience. I build both the front-end
+          and back-end of web applications, focusing on creating seamless and functional user experiences. I’m dedicated
+          to turning your ideas into working solutions and passionate about turning complex challenges into simple,
+          effective solutions.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-1">
+          </div>
+          <div class="col-lg-8 content">
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Name:</strong> <span>Muhammad Haris</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>harisabbas84@gmail.com</span>
+                  </li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone Number:</strong> <span>+923134016699</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Lahore, Pakistan</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Skype:</strong> <span>harisabbas38@gmail.com</span>
+                  </li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>dev.ItechExplore.com</span>
+                  </li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>LinkedIn:</strong>
+                    <span>https://www.linkedin.com/in/muhammad-haris-424aa5138</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <section id="stats" class="stats section pb-4">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center">
+            <div class="statDiv">
+              <i class="bi bi-emoji-smile"></i>
+              <div class="stats-item">
+                <div>
+                  <span class="">5+ Years</span>
+                </div>
+                <p>Experience</p>
+              </div>
+            </div>
+
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center">
+            <div class="statDiv">
+              <i class="bi bi-journal-richtext" style="background: #1dbb1d;"></i>
+              <div class="stats-item">
+                <span>20+</span>
+                <p>Projects</p>
+              </div>
+            </div>
+
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center">
+            <div class="statDiv">
+              <i class="bi bi-headset" style="background: #ef3a3a;"></i>
+              <div class="stats-item">
+                <span class="">24/7</span>
+                <p class="statDivHeading1" style="display: none;">Hours Of Support</p>
+                <p class="statDivHeading2" style="display: none;">Availability</p>
+              </div>
+            </div>
+
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section pb-0">
+
+      <!-- Section Title -->
+      <div class="container section-title pb-5" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>I’m skilled in multiple technologies, which helps me tackle various development challenges. My broad
+          expertise ensures effective solutions for different needs. I focus on delivering results that meet diverse
+          project requirements.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="skills-content skills-animation">
+          <div class="">
+            <div class="statDiv">
+              <img src="assets/img/languages/html.png">
+              <div class="stats-item">
+                <div>
+                  <span class="">HTML</span>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="">
+            <div class="statDiv">
+              <img src="assets/img/languages/css.png">
+              <div class="stats-item">
+                <div>
+                  <span class="">CSS</span>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="">
+            <div class="statDiv">
+              <img src="assets/img/languages/bootstrap.png">
+              <div class="stats-item">
+                <div>
+                  <span class="">Bootstrap</span>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="">
+            <div class="statDiv">
+              <img src="assets/img/languages/javascript.png">
+              <div class="stats-item">
+                <div>
+                  <span class="">Javascript</span>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="">
+            <div class="statDiv">
+              <img src="assets/img/languages/jquery.png">
+              <div class="stats-item">
+                <div>
+                  <span class="">JQuery</span>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="">
+            <div class="statDiv">
+              <img src="assets/img/languages/ajax.png">
+              <div class="stats-item">
+                <div>
+                  <span class="">Ajax</span>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div>
+            <div class="statDiv">
+              <img src="assets/img/languages/angular.png">
+              <div class="stats-item">
+                <div>
+                  <span class="">AngularJs</span>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div>
+            <div class="statDiv">
+              <img src="assets/img/languages/angular.png">
+              <div class="stats-item">
+                <div>
+                  <span class="">Angular Framework</span>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div>
+            <div class="statDiv">
+              <img src="assets/img/languages/c-sharp.png">
+              <div class="stats-item">
+                <div>
+                  <span class="">C#</span>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div>
+            <div class="statDiv">
+              <img src="assets/img/languages/mvc.png">
+              <div class="stats-item">
+                <div>
+                  <span class="">ASP.NET MVC</span>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div>
+            <div class="statDiv">
+              <img src="assets/img/languages/core.png">
+              <div class="stats-item">
+                <div>
+                  <span class="">ASP.NET Core</span>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div>
+            <div class="statDiv">
+              <img src="assets/img/languages/signalr.png">
+              <div class="stats-item">
+                <div>
+                  <span class="">SignalR</span>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div>
+            <div class="statDiv">
+              <img src="assets/img/languages/webrtc.png">
+              <div class="stats-item">
+                <div>
+                  <span class="">WebRTC</span>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div>
+            <div class="statDiv">
+              <img src="assets/img/languages/api.png">
+              <div class="stats-item">
+                <div>
+                  <span class="">WebAPI</span>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div>
+            <div class="statDiv">
+              <img src="assets/img/languages/entityframework.png">
+              <div class="stats-item">
+                <div>
+                  <span class="">Entity Framework</span>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div>
+            <div class="statDiv">
+              <img src="assets/img/languages/linq.png">
+              <div class="stats-item">
+                <div>
+                  <span class="">LINQ</span>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div>
+            <div class="statDiv">
+              <img src="assets/img/languages/entityframework.png">
+              <div class="stats-item">
+                <div>
+                  <span class="">ADO.NET</span>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div>
+            <div class="statDiv">
+              <img src="assets/img/languages/sql.png">
+              <div class="stats-item">
+                <div>
+                  <span class="">SQL</span>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div>
+            <div class="statDiv">
+              <img src="assets/img/languages/tfs.png">
+              <div class="stats-item">
+                <div>
+                  <span class="">TFS</span>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div>
+            <div class="statDiv">
+              <img src="assets/img/languages/git.png">
+              <div class="stats-item">
+                <div>
+                  <span class="">GitHub & Git</span>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div>
+            <div class="statDiv">
+              <img src="assets/img/languages/aws.png" style="margin-top: 9px;">
+              <div class="stats-item">
+                <div>
+                  <span class="">Amazon Services: S3,SES,SNS</span>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Stats Item -->
+          <div>
+            <div class="statDiv">
+              <img src="assets/img/languages/payment.png">
+              <div class="stats-item">
+                <div>
+                  <span class="">Payment Gateways</span>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Stats Item -->
+          <div>
+            <div class="statDiv">
+              <img src="assets/img/languages/sms.png">
+              <div class="stats-item">
+                <div>
+                  <span class="">SMS Gateways</span>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Stats Item -->
+          <div>
+            <div class="statDiv">
+              <img src="assets/img/languages/whatsapp.png">
+              <div class="stats-item">
+                <div>
+                  <span class="">WhatsApp Gateways</span>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Stats Item -->
+          <div>
+            <div class="statDiv">
+              <img src="assets/img/languages/call.png">
+              <div class="stats-item">
+                <div>
+                  <span class="">Calling Gateways</span>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section pb-0">
+
+      <!-- Section Title -->
+      <div class="container section-title pb-3" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>Adept at solving complex development challenges with innovative approaches. Proven track record of creating user-centric, high-quality web solutions. Passionate about leveraging technology to drive business success. Committed to continuous learning and professional growth.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Summary</h3>
+
+            <div class="resume-item pb-0">
+              <h4>Muhammad Haris</h4>
+              <p><em>I’m a Full Stack .NET Web Developer with over 5 years of experience, skilled in building comprehensive web applications. I excel at transforming complex challenges into straightforward, effective solutions and turning your ideas into reality.</em></p>
+              <ul>
+                <li>+923134016699</li>
+                <li>harisabbas84@gmail.com</li>
+                <li>Lahore,Pakistan</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>BS Information Technology</h4>
+              <h5 style="padding-bottom: 0px;">2013 - 2018</h5>
+              <p><em>Punjab University Lahore,Pakistan</em></p>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>ASP.NET MVC Developer</h4>
+              <h5 style="padding-bottom: 0px;">2018 - 2019</h5>
+              <p><em>EVS Training Institute Lahore,Pakistan</em></p>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Senior Software Engineer (Team Lead)</h4>
+              <h5 class="mb-0">Semantics (Pvt) Ltd </h5><h5 class="mb-0" style="float: right;">Lahore,Pakistan</span>
+              <h5 style="display: block;">2021 - Present</h6>
+              <ul>
+                <li style="font-weight: 600;">Projects: Domain(Education)</li>
+                <li>Upswing Admissions (https://upswingadmissions.com)</li>
+                <li>Upswing Class Room (https://upswingclassroom.com)</li>
+                <li>Testopodia (https://testopodia.com)</li>
+                <li>Sam Academy (https://samacademy.ai)</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Software Engineer</h4>
+              <h5 class="mb-0">Intellisoft Solutions </h5><h5 class="mb-0" style="float: right;">Lahore,Pakistan</span>
+              <h5 style="display: block;">2020 - 2021</h6>
+              <ul>
+                <li style="font-weight: 600;">Projects: Domain(E-Commerce)</li>
+                <li>Dandy Shop (https://dandydesigns.pk)</li>
+                <li>Airline Travel Platform</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Software Engineer</h4>
+              <h5 class="mb-0">Vision Plus </h5><h5 class="mb-0" style="float: right;">Lahore,Pakistan</span>
+              <h5 style="display: block;">2019 - 2020</h6>
+              <ul>
+                <li style="font-weight: 600;">Projects: Domain(Finance)</li>
+                <li>Vehicle Operations Service</li>
+                <li>Catering System</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Portfolio Section -->
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section pb-0">
+
+      <!-- Section Title -->
+      <div class="container section-title pb-4" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Browse my portfolio to see a variety of projects demonstrating my skills in development. Each project reflects my expertise and ability to deliver effective solutions. Discover how I bring ideas to life through innovative and well-executed work.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-education">Education</li>
+            <li data-filter=".filter-ecommerce">E-Commerce</li>
+            <li data-filter=".filter-finance">Finance</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-education">
+              <a href="assets/img/portfolio/1.PNG" class="glightbox" data-glightbox="type: image">
+                <img src="assets/img/portfolio/1.PNG" class=" img-fluid img-thumbnail p-2" alt="Project 1">
+              </a>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-education">
+              <a href="assets/img/portfolio/2.PNG" class="glightbox" data-glightbox="type: image">
+                <img src="assets/img/portfolio/2.PNG" class=" img-fluid img-thumbnail p-2" alt="Project 2">
+              </a>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-education">
+              <a href="assets/img/portfolio/3.PNG" class="glightbox" data-glightbox="type: image">
+                <img src="assets/img/portfolio/3.PNG" class=" img-fluid img-thumbnail p-2" alt="Project 3">
+              </a>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-education">
+              <a href="assets/img/portfolio/3_1.PNG" class="glightbox" data-glightbox="type: image">
+                <img src="assets/img/portfolio/3_1.PNG" class=" img-fluid img-thumbnail p-2" alt="Project 3_1">
+              </a>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-education">
+              <a href="assets/img/portfolio/3_2.PNG" class="glightbox" data-glightbox="type: image">
+                <img src="assets/img/portfolio/3_2.PNG" class=" img-fluid img-thumbnail p-2" alt="Project 3_2">
+              </a>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-education">
+              <a href="assets/img/portfolio/4.PNG" class="glightbox" data-glightbox="type: image">
+                <img src="assets/img/portfolio/4.PNG" class=" img-fluid img-thumbnail p-2" alt="Project 4">
+              </a>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-education">
+              <a href="assets/img/portfolio/5.PNG" class="glightbox" data-glightbox="type: image">
+                <img src="assets/img/portfolio/5.PNG" class=" img-fluid img-thumbnail p-2" alt="Project 5">
+              </a>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-education">
+              <a href="assets/img/portfolio/6.PNG" class="glightbox" data-glightbox="type: image">
+                <img src="assets/img/portfolio/6.PNG" class=" img-fluid img-thumbnail p-2" alt="Project 6">
+              </a>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-education">
+              <a href="assets/img/portfolio/7.PNG" class="glightbox" data-glightbox="type: image">
+                <img src="assets/img/portfolio/7.PNG" class=" img-fluid img-thumbnail p-2" alt="Project 7">
+              </a>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-education">
+              <a href="assets/img/portfolio/8.PNG" class="glightbox" data-glightbox="type: image">
+                <img src="assets/img/portfolio/8.PNG" class=" img-fluid img-thumbnail p-2" alt="Project 8">
+              </a>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-education">
+              <a href="assets/img/portfolio/9.PNG" class="glightbox" data-glightbox="type: image">
+                <img src="assets/img/portfolio/9.PNG" class=" img-fluid img-thumbnail p-2" alt="Project 9">
+              </a>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-education">
+              <a href="assets/img/portfolio/10.PNG" class="glightbox" data-glightbox="type: image">
+                <img src="assets/img/portfolio/10.PNG" class=" img-fluid img-thumbnail p-2" alt="Project 10">
+              </a>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-education">
+              <a href="assets/img/portfolio/11.PNG" class="glightbox" data-glightbox="type: image">
+                <img src="assets/img/portfolio/11.PNG" class=" img-fluid img-thumbnail p-2" alt="Project 11">
+              </a>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-education">
+              <a href="assets/img/portfolio/12.PNG" class="glightbox" data-glightbox="type: image">
+                <img src="assets/img/portfolio/12.PNG" class=" img-fluid img-thumbnail p-2" alt="Project 12">
+              </a>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-education">
+              <a href="assets/img/portfolio/13.PNG" class="glightbox" data-glightbox="type: image">
+                <img src="assets/img/portfolio/13.PNG" class=" img-fluid img-thumbnail p-2" alt="Project 13">
+              </a>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-education">
+              <a href="assets/img/portfolio/14.PNG" class="glightbox" data-glightbox="type: image">
+                <img src="assets/img/portfolio/14.PNG" class=" img-fluid img-thumbnail p-2" alt="Project 14">
+              </a>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-education">
+              <a href="assets/img/portfolio/15.PNG" class="glightbox" data-glightbox="type: image">
+                <img src="assets/img/portfolio/15.PNG" class=" img-fluid img-thumbnail p-2" alt="Project 15">
+              </a>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ecommerce">
+              <a href="assets/img/portfolio/16.png" class="glightbox" data-glightbox="type: image">
+                <img src="assets/img/portfolio/16.png" class=" img-fluid img-thumbnail p-2" alt="Project 16">
+              </a>
+            </div><!-- End Portfolio Item -->
+            
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ecommerce">
+              <a href="assets/img/portfolio/17.png" class="glightbox" data-glightbox="type: image">
+                <img src="assets/img/portfolio/17.png" class=" img-fluid img-thumbnail p-2" alt="Project 17">
+              </a>
+            </div><!-- End Portfolio Item -->
+            
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ecommerce">
+              <a href="assets/img/portfolio/18.png" class="glightbox" data-glightbox="type: image">
+                <img src="assets/img/portfolio/18.png" class=" img-fluid img-thumbnail p-2" alt="Project 18">
+              </a>
+            </div><!-- End Portfolio Item -->
+            
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ecommerce">
+              <a href="assets/img/portfolio/19.png" class="glightbox" data-glightbox="type: image">
+                <img src="assets/img/portfolio/19.png" class=" img-fluid img-thumbnail p-2" alt="Project 19">
+              </a>
+            </div><!-- End Portfolio Item -->
+            
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ecommerce">
+              <a href="assets/img/portfolio/20.png" class="glightbox" data-glightbox="type: image">
+                <img src="assets/img/portfolio/20.png" class=" img-fluid img-thumbnail p-2" alt="Project 20">
+              </a>
+            </div><!-- End Portfolio Item -->
+            
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ecommerce">
+              <a href="assets/img/portfolio/27.png" class="glightbox" data-glightbox="type: image">
+                <img src="assets/img/portfolio/27.png" class=" img-fluid img-thumbnail p-2" alt="Project 27">
+              </a>
+            </div><!-- End Portfolio Item -->
+            
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ecommerce">
+              <a href="assets/img/portfolio/28.png" class="glightbox" data-glightbox="type: image">
+                <img src="assets/img/portfolio/28.png" class=" img-fluid img-thumbnail p-2" alt="Project 28">
+              </a>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ecommerce">
+              <a href="assets/img/portfolio/29.png" class="glightbox" data-glightbox="type: image">
+                <img src="assets/img/portfolio/29.png" class=" img-fluid img-thumbnail p-2" alt="Project 29">
+              </a>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-finance">
+              <a href="assets/img/portfolio/21.png" class="glightbox" data-glightbox="type: image">
+                <img src="assets/img/portfolio/21.png" class=" img-fluid img-thumbnail p-2" alt="Project 21">
+              </a>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-finance">
+              <a href="assets/img/portfolio/22.png" class="glightbox" data-glightbox="type: image">
+                <img src="assets/img/portfolio/22.png" class=" img-fluid img-thumbnail p-2" alt="Project 22">
+              </a>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-finance">
+              <a href="assets/img/portfolio/23.png" class="glightbox" data-glightbox="type: image">
+                <img src="assets/img/portfolio/23.png" class=" img-fluid img-thumbnail p-2" alt="Project 23">
+              </a>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-finance">
+              <a href="assets/img/portfolio/24.png" class="glightbox" data-glightbox="type: image">
+                <img src="assets/img/portfolio/24.png" class=" img-fluid img-thumbnail p-2" alt="Project 24">
+              </a>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-finance">
+              <a href="assets/img/portfolio/25.png" class="glightbox" data-glightbox="type: image">
+                <img src="assets/img/portfolio/25.png" class=" img-fluid img-thumbnail p-2" alt="Project 25">
+              </a>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-finance">
+              <a href="assets/img/portfolio/26.png" class="glightbox" data-glightbox="type: image">
+                <img src="assets/img/portfolio/26.png" class=" img-fluid img-thumbnail p-2" alt="Project 26">
+              </a>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+	
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title pb-5">
+        <h2>Contact</h2>
+        <p>Get in touch to explore exciting project ideas or new opportunities. I’m eager to discuss how we can work together effectively. Whether you have a specific project in mind or just want to brainstorm, I’m here to help. Let’s connect and turn your vision into reality. </p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="info-item d-flex" data-aos-delay="200">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Address</h3>
+                <p>Lahore,Pakistan</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos-delay="300">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email</h3>
+                <p>harisabbas84@gmail.com</p>
+              </div>
+            </div><!-- End Info Item -->
+            <div class="info-item d-flex" data-aos-delay="400">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Phone</h3>
+                <p>+923134016699</p>
+              </div>
+            </div><!-- End Info Item -->
+
+
+          </div>
+
+          <div class="col-lg-8">
+            <form action="forms/contact.php" method="post" class="php-email-form"
+              data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">2024</strong> <span>All Rights Reserved<br></span>
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
